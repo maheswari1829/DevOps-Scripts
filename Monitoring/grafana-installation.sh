@@ -23,3 +23,11 @@ sudo systemctl enable grafana-server
 sudo systemctl start grafana-server
 
 # Verify Grafana service status
+sudo systemctl status grafana-server --no-pager
+
+# Access Grafana
+# http://<PUBLIC-IP>:3000
+
+# Default Credentials
+# Username: admin
+# Password: admin
