@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Install Java 17
-sudo yum install java-17-amazon-corretto -y
+# Install Java 21
+sudo yum install java-21-amazon-corretto -y
 
 # Download Apache Tomcat 9
 wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.115/bin/apache-tomcat-9.0.115.tar.gz
