@@ -3,13 +3,16 @@
 # Download kubecolor package
 wget https://github.com/hidetatz/kubecolor/releases/download/v0.0.25/kubecolor_0.0.25_Linux_x86_64.tar.gz
 
-# Extract package
+# Extract kubecolor package
 tar -zxvf kubecolor_0.0.25_Linux_x86_64.tar.gz
 
-# Give executable permission
+# Run kubecolor manually to understand usage
+./kubecolor
+
+# Give executable permissions
 chmod +x kubecolor
 
-# Move binary to system path
+# Move kubecolor binary to system path
 sudo mv kubecolor /usr/local/bin/
 
 # Verify kubecolor installation
