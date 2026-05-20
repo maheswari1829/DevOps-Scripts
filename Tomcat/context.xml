@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Tomcat Manager Context Configuration -->
+
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.
+-->
+
+<Context antiResourceLocking="false" privileged="true">
+
+    <!-- Cookie Configuration -->
+    <CookieProcessor
+        className="org.apache.tomcat.util.http.Rfc6265CookieProcessor"
+        sameSiteCookies="strict" />
+
+    <!-- Session Management -->
+    <Manager
+        sessionAttributeValueClassNameFilter="java\.lang\.(?:Boolean|Integer|Long|Number|String)|org\.apache\.catalina\.filters\.CsrfPreventionFilter\$LruCache(?:\$1)?|java\.util\.(?:Linked)?HashMap"/>
+
+</Context>
