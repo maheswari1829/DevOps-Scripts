@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install Java 17
-sudo yum install java-17-amazon-corretto -y
+sudo yum install java-21-amazon-corretto -y
 
 # Download Nexus package
 wget https://download.sonatype.com/nexus/3/nexus-unix-x86-64-3.79.0-09.tar.gz
