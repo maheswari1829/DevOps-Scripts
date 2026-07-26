@@ -7,7 +7,7 @@ aws configure
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 
 # Download KOPS
-wget https://github.com/kubernetes/kops/releases/download/v1.33.0/kops-linux-amd64
+wget https://github.com/kubernetes/kops/releases/download/v1.35.1/kops-linux-amd64
 
 # Give executable permissions
 chmod +x kops-linux-amd64 kubectl
