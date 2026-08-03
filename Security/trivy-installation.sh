@@ -5,7 +5,7 @@
 # ----------------------------------------
 
 # Download Trivy package
-wget https://github.com/aquasecurity/trivy/releases/download/v0.72.0/trivy_0.72.0_Linux-64bit.tar.gz
+wget https://github.com/aquasecurity/trivy/releases/download/v0.73.0/trivy_0.73.0_Linux-64bit.tar.gz
 
 # Extract Trivy package
 tar -zxvf trivy_0.72.0_Linux-64bit.tar.gz
